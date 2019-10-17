@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\map">
+      <UniqueIdentifier>{938b60ec-2a7f-41dc-853e-a1fe14a3ad28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\work">
+      <UniqueIdentifier>{4cbad04c-c141-45ad-b951-0325b5f83a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\quest">
+      <UniqueIdentifier>{a7ae3681-cd82-4fce-a676-27b9b78f09a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\allfunc">
+      <UniqueIdentifier>{3d8cff6a-abdd-42ad-94a7-f590073e2367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\question">
+      <UniqueIdentifier>{4f74ce20-8528-4de4-a05e-05875cdd317a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="work001.cpp">
+      <Filter>源文件\work</Filter>
+    </ClCompile>
+    <ClCompile Include="quest001.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest100.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest004.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest005.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest006.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest007.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest008.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest009.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest011.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest012找素数.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest091.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest092-时间函数.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest093.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest094.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest095.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest096.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest097.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest100-up.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="map001.cpp">
+      <Filter>源文件\map</Filter>
+    </ClCompile>
+    <ClCompile Include="quest013-水仙花.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest014.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest015.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="work002-list.cpp">
+      <Filter>源文件\work</Filter>
+    </ClCompile>
+    <ClCompile Include="work003-list-map.cpp">
+      <Filter>源文件\work</Filter>
+    </ClCompile>
+    <ClCompile Include="quest018.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest019.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest020.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="func001.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="quest021.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="func002.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="quest090.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest089.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="quest088.cpp">
+      <Filter>源文件\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="func003.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func004-access.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func005-acos.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func006.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func007.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func008-asin.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func009-assert.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func010-memcpy.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="work004.cpp">
+      <Filter>源文件\work</Filter>
+    </ClCompile>
+    <ClCompile Include="func011-strcpy.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func012-strcat.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="work005-heartbead.cpp">
+      <Filter>源文件\work</Filter>
+    </ClCompile>
+    <ClCompile Include="func013-strcmp.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func014-strlen.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func015-strncpy.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func016-strstr.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func017-atexit.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="work006.cpp">
+      <Filter>源文件\work</Filter>
+    </ClCompile>
+    <ClCompile Include="func018-atof.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func019-mkdir.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func020-mktemp.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="func021-modf.cpp">
+      <Filter>源文件\allfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="template00.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="template01.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="template02.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="001动态数组.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="002内联函数.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="003友元函数.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="004静态数据成员和静态成员函数.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+    <ClCompile Include="005基类派生类.cpp">
+      <Filter>源文件\question</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

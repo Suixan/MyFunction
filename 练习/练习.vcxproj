@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09A3638F-5AEB-4BC4-ABC7-BA74C3D7FB88}</ProjectGuid>
+    <RootNamespace>练习</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="func001.cpp" />
+    <ClCompile Include="func002.cpp" />
+    <ClCompile Include="func003.cpp" />
+    <ClCompile Include="func004-access.cpp" />
+    <ClCompile Include="func005-acos.cpp" />
+    <ClCompile Include="func006.cpp" />
+    <ClCompile Include="func007.cpp" />
+    <ClCompile Include="func008-asin.cpp" />
+    <ClCompile Include="func009-assert.cpp" />
+    <ClCompile Include="func010-memcpy.cpp" />
+    <ClCompile Include="func011-strcpy.cpp" />
+    <ClCompile Include="func012-strcat.cpp" />
+    <ClCompile Include="func013-strcmp.cpp" />
+    <ClCompile Include="func014-strlen.cpp" />
+    <ClCompile Include="func015-strncpy.cpp" />
+    <ClCompile Include="func016-strstr.cpp" />
+    <ClCompile Include="func017-atexit.cpp" />
+    <ClCompile Include="func018-atof.cpp" />
+    <ClCompile Include="func019-mkdir.cpp" />
+    <ClCompile Include="func020-mktemp.cpp" />
+    <ClCompile Include="func021-modf.cpp" />
+    <ClCompile Include="map001.cpp" />
+    <ClCompile Include="quest001.cpp" />
+    <ClCompile Include="quest004.cpp" />
+    <ClCompile Include="quest005.cpp" />
+    <ClCompile Include="quest006.cpp" />
+    <ClCompile Include="quest007.cpp" />
+    <ClCompile Include="quest008.cpp" />
+    <ClCompile Include="quest009.cpp" />
+    <ClCompile Include="quest011.cpp" />
+    <ClCompile Include="quest012找素数.cpp" />
+    <ClCompile Include="quest013-水仙花.cpp" />
+    <ClCompile Include="quest014.cpp" />
+    <ClCompile Include="quest015.cpp" />
+    <ClCompile Include="quest018.cpp" />
+    <ClCompile Include="quest019.cpp" />
+    <ClCompile Include="quest020.cpp" />
+    <ClCompile Include="quest021.cpp" />
+    <ClCompile Include="quest088.cpp" />
+    <ClCompile Include="quest089.cpp" />
+    <ClCompile Include="quest090.cpp" />
+    <ClCompile Include="quest091.cpp" />
+    <ClCompile Include="quest092-时间函数.cpp" />
+    <ClCompile Include="quest093.cpp" />
+    <ClCompile Include="quest094.cpp" />
+    <ClCompile Include="quest095.cpp" />
+    <ClCompile Include="quest096.cpp" />
+    <ClCompile Include="quest097.cpp" />
+    <ClCompile Include="quest100-up.cpp" />
+    <ClCompile Include="quest100.cpp" />
+    <ClCompile Include="template00.cpp" />
+    <ClCompile Include="template01.cpp" />
+    <ClCompile Include="template02.cpp" />
+    <ClCompile Include="work001.cpp" />
+    <ClCompile Include="work002-list.cpp" />
+    <ClCompile Include="work003-list-map.cpp" />
+    <ClCompile Include="work004.cpp" />
+    <ClCompile Include="work005-heartbead.cpp" />
+    <ClCompile Include="work006.cpp" />
+    <ClCompile Include="002内联函数.cpp" />
+    <ClCompile Include="001动态数组.cpp" />
+    <ClCompile Include="003友元函数.cpp" />
+    <ClCompile Include="004静态数据成员和静态成员函数.cpp" />
+    <ClCompile Include="005基类派生类.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
